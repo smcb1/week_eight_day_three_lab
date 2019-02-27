@@ -1,4 +1,4 @@
-# punk_api
+# hotel_booking
 
 > A Vue.js project
 
