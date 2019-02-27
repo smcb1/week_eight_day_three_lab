@@ -2,14 +2,14 @@
   <div id="app">
     <div class="container">
       <h1>{{ msg }}</h1>
-      <bokings-form></bokings-form>
+      <bookings-form></bookings-form>
       <bookings-list></bookings-list>
     </div>
   </div>
 </template>
 
 <script>
-import BookingsForm from './components/BookingsForm';
+import BookingsForm from './components/BookingsForm.vue';
 import BookingsList from './components/BookingsList.vue'
 import {eventBus} from './main.js'
 
@@ -24,6 +24,7 @@ export default {
     }
   },
   components: {
+    BookingsForm,
     BookingsList
   },
 }
